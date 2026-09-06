@@ -27,7 +27,7 @@ const CONFIG = {
 
     nivel: 120,
     rango: 'S+++',
-    rol: 'Agent / Rupture & Anihilation',
+    rol: 'Agent / Rupture',
 
     stats: {
       hp: '12,500',
@@ -88,7 +88,7 @@ const CONFIG = {
         dmgEther: '58%'
       },
 
-      rol: 'Agent / Anomaly'
+      rol: 'Agent / Attack & Anomaly'
     },
 
 
@@ -100,7 +100,7 @@ const CONFIG = {
       render: 'assets/signatures/amigo2.png',
       mensaje: '我问你: (ﾉ>ω<)ﾉ :｡･::･ﾟ’★,｡･::♪･ﾟ’☆ Mi querido gran amigo. Recuerdo como si fuera ayer el día que nos conocimos 为什么不能接受？ Gracias a Muzhi en un xat pedorro con nick de lolita jajaja. Te veías super cute, mejor que yo (? jaksajs. Gracias a él pude conocer a una gran persona; Honesta, dulce, respetuosa, carismático y sobre todo, una persona de gran corazón. Llegaste a mi vida en el momento justo, como si fuera una broma del destino. Entre todas las personas inmundas que conocí en xat, tú fuiste la única amistad que realmentevalió la pena. ༼つಠ益ಠ ༽つ ─=≡ΣO)): Cuántas alegrías y tristezas compartimos? Gracias por ser mi mejor amigo. Vamos hacia el futuro juntos,tú empujándome y yolevantándote siempre porque juntos somos indestructibles. (°▯°)',
       space: 'https://xat.me/90391591',
-      nivel: 95,
+      nivel: 80,
       rango: 'S+',
 
       stats: {
@@ -129,7 +129,7 @@ const CONFIG = {
       render: 'assets/signatures/amigo3.png',
       mensaje: 'Nece ʚ₍ᐢ. .ᐢ₎ɞ, en el tiempo que llevo conociéndote, me caes muy bien y hemos podido establecer una bonita amistad, espero que se mantenga por mucho tiempo más! Se te quiero y aprecia mucho! Abrazos! ♡',
       space: 'https://xat.me/154519889',
-      nivel: 56,
+      nivel: 55,
       rango: 'A++',
 
       stats: {
@@ -187,7 +187,7 @@ const CONFIG = {
       render: 'assets/signatures/amigo5.png',
       mensaje: 'Maldito infiel.',
       space: 'https://xat.me/195464300',
-      nivel: 53,
+      nivel: 34,
       rango: 'A',
 
       stats: {
@@ -1861,7 +1861,7 @@ function init() {
 
 
   /* =======================================================
-   *  FRIENDS
+   *  /*FRIENDS*/
    * ======================================================= */
 
   function renderFriends() {
