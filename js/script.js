@@ -330,7 +330,7 @@ const CONFIG = {
       id: '1555016996',
       avatar: 'assets/friends/amigo10.png',
       render: 'assets/signatures/amigo10.png',
-      mensaje: '!Fusilar+ Nece',
+      mensaje: 'En primer lugar, agradezco el detalle de incluirme en tu space. No me consideraba un gran protagonista en lo que llamemos “tu historia”, pero siempre que siga por ahí estaré disponible cuando tengas un dilema existencial. A pesar de desacuerdos, no solo puedes contar con mi humilde aportación humana cuando lo desees mientras yo esté, sino que agradezco haber recibido ayuda y conforte aún en momentos en los que no tenías por qué. Solo no me des ganas de aplicarte el comando !fusilar.Todos los días nos toca aprender cosas en nuestras vidas, y en ese proceso espero que sigas siendo la persona noble y sin maldad que hasta el momento me encontré.',
       space: 'https://xat.me/1555016996',
       nivel: 69,
       rango: 'B',
