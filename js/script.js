@@ -2488,7 +2488,7 @@ function init() {
 
       '<span>Name</span>' +
 
-      '<strong>Chris</strong>' +
+      '<strong>Chris クリス</strong>' +
 
       '</div>' +
 
@@ -2497,7 +2497,7 @@ function init() {
 
       '<span>Main</span>' +
 
-      '<strong>Yi Xuan</strong>' +
+      '<strong>Yi Xuan 🐦‍⬛</strong>' +
 
       '</div>' +
 
@@ -2506,7 +2506,23 @@ function init() {
 
       '<span>Country</span>' +
 
-      '<strong>Argentina</strong>' +
+      '<strong>Argentina 🇦🇷</strong>' +
+
+      '</div>' +
+
+      '<div class="about-row">' +
+
+      '<span>Sing</span>' +
+
+      '<strong>Capricornio ♑</strong>' +
+
+      '</div>' +
+
+      '<div class="about-row">' +
+
+      '<span>Birthday</span>' +
+
+      '<strong>1th Enero 🎉</strong>' +
 
       '</div>' +
 
@@ -2515,7 +2531,7 @@ function init() {
 
       '<span>Relationship</span>' +
 
-      '<strong>Married</strong>' +
+      '<strong>Married 💫</strong>' +
 
       '</div>' +
 
@@ -2524,7 +2540,7 @@ function init() {
 
       '<span>Status</span>' +
 
-      '<strong>Alive for moment</strong>' +
+      '<strong>Alive for moment ☠️</strong>' +
 
       '</div>' +
 
@@ -2533,7 +2549,7 @@ function init() {
 
       '<span>Game</span>' +
 
-      '<strong>Zenless Zone Zero</strong>' +
+      '<strong>Zenless Zone Zero 🎮</strong>' +
 
       '</div>' +
 
@@ -2542,7 +2558,7 @@ function init() {
 
       '<span>Style</span>' +
 
-      '<strong>Dark / Elegant</strong>' +
+      '<strong>Dark / Elegant ♱</strong>' +
 
       '</div>' +
 
