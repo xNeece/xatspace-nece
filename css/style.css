@@ -99,7 +99,7 @@
 .intro-rail:before{content:"";position:absolute;inset:0;pointer-events:none;background:linear-gradient(180deg,transparent 0%,rgba(231,194,111,.025) 48%,transparent 100%)}
 .intro-rail-inner{height:100%;display:flex;flex-direction:column;padding:30px 30px 24px;box-sizing:border-box;position:relative}
 .intro-brand{display:flex;align-items:center;gap:16px;min-height:82px}
-.intro-rail-logo{width:178px;height:74px;object-fit:contain;filter:invert(1) brightness(.86) drop-shadow(0 12px 25px rgba(0,0,0,.65));mix-blend-mode:screen}
+.intro-rail-logo{width:344px;height:148px;transform: translateY(110px);object-fit:contain;filter:invert(1) brightness(.86) drop-shadow(0 12px 25px rgba(0,0,0,.65));mix-blend-mode:screen}
 .intro-rail-icon{width:58px;height:58px;object-fit:cover;border:1px solid rgba(255,255,255,.18);box-shadow:0 8px 25px rgba(0,0,0,.42)}
 .intro-rail-divider{height:1px;background:linear-gradient(90deg,rgba(231,194,111,.5),rgba(231,194,111,.08),transparent);margin:25px 0 28px}
 .intro-rail-state{animation:railStateIn .5s ease both}
