@@ -27,7 +27,7 @@ const CONFIG = {
 
     nivel: 120,
     rango: 'S+++',
-    rol: 'Proxy / Agent',
+    rol: 'Agent / Rupture',
 
     stats: {
       hp: '12,500',
@@ -88,7 +88,7 @@ const CONFIG = {
         dmgEther: '58%'
       },
 
-      rol: 'Agent / Anomaly'
+      rol: 'Agent / Anomaly & Anomaly'
     },
 
 
@@ -98,7 +98,7 @@ const CONFIG = {
       id: '90391591',
       avatar: 'assets/friends/amigo2.png',
       render: 'assets/signatures/amigo2.png',
-      mensaje: 'Una dedicatoria especial para alguien que siempre forma parte de esta pequeña historia.',
+      mensaje: '我问你: (ﾉ>ω<)ﾉ :｡･::･ﾟ’★,｡･::♪･ﾟ’☆ Mi querido gran amigo. Recuerdo como si fuera ayer el día que nos conocimos 为什么不能接受？ Gracias a Muzhi en un xat pedorro con nick de lolita jajaja. Te veías super cute, mejor que yo (? jaksajs. Gracias a él pude conocer a una gran persona; Honesta, dulce, respetuosa, carismático y sobre todo, una persona de gran corazón. Llegaste a mi vida en el momento justo, como si fuera una broma del destino. Entre todas las personas inmundas que conocí en xat, tú fuiste la única amistad que realmentevalió la pena. ༼つಠ益ಠ ༽つ ─=≡ΣO)): Cuántas alegrías y tristezas compartimos? Gracias por ser mi mejor amigo. Vamos hacia el futuro juntos,tú empujándome y yolevantándote siempre porque juntos somos indestructibles. (°▯°)',
       space: 'https://xat.me/90391591',
       nivel: 80,
       rango: 'S+',
@@ -117,7 +117,7 @@ const CONFIG = {
         dmgEther: '43%'
       },
 
-      rol: 'Agent / Attack'
+      rol: 'Agent / Stunner'
     },
 
 
@@ -146,7 +146,7 @@ const CONFIG = {
         dmgEther: '32%'
       },
 
-      rol: 'Agent / Support'
+      rol: 'Agent / Anomaly'
     },
 
 
@@ -204,7 +204,7 @@ const CONFIG = {
         dmgEther: '17%'
       },
 
-      rol: 'Agent / Defense'
+      rol: 'Agent / Attack'
     },
 
 
@@ -233,7 +233,7 @@ const CONFIG = {
         dmgEther: '51%'
       },
 
-      rol: 'Agent / Anomaly'
+      rol: 'Agent / Attack'
     },
 
 
@@ -262,7 +262,7 @@ const CONFIG = {
         dmgEther: '40%'
       },
 
-      rol: 'Agent / Support'
+      rol: 'Agent / Attack'
     },
 
 
@@ -291,7 +291,7 @@ const CONFIG = {
         dmgEther: '37%'
       },
 
-      rol: 'Agent / Attack'
+      rol: 'Agent / Support'
     },
 
 
@@ -320,7 +320,7 @@ const CONFIG = {
         dmgEther: '39%'
       },
 
-      rol: 'Agent / Attack'
+      rol: 'Agent / Stunner'
     },
 
 
@@ -349,8 +349,36 @@ const CONFIG = {
         dmgEther: '19%'
       },
 
-      rol: 'Agent / Defense'
-    }
+      rol: 'Agent / Rupture'
+    },
+
+    {
+      nombre: 'Yuki',
+      registro: 'Lynette',
+      id: '1515302520',
+      avatar: 'assets/friends/amigo11.png',
+      render: 'assets/signatures/amigo11.png',
+      mensaje: 'Hola, en primer lugar gracias por dejarme escribir en tu space, me hace feliz que me consideres para algo así de bonito. Por dónde empezar, nos conocemos hace un tiempo, no mucho para decir que somos compas de toda la vida pero no tan poco para simplemente tener charlas triviales. Solo quería agradecerte porque aunque te enojas re izi, siempre haz estado ahí para mí :3 y eso es algo que valoro mucho, me tienes tanta paciencia. No te rindes conmigo aún cuando hago tonterías y me sigues aconsejando. Gracias por tratar de animarme cuando me pasan cosas que me deprimen, tratas de hacer que piense en otras cosas o distraerme llevándome a bingos y más cosas. Solo quiero decirte que siempre estaré ahí para ti en lo que necesites y te estaré apoyando en todo. Quiero hacer por ti lo que tú haces por mi. Te quiero mucho Chris, siempre valorare todo lo que haz hecho por mi sin esperar nada a cambio y siempre voy a apreciarlo con todo mi corazón, espero realmente seamos amigos por muuuucho más tiempito, espero me lo puedas permitir, con cariño, Yuki <3. ',
+      space: 'https://xat.me/1515302520',
+      nivel: 77,
+      rango: 'A++',
+
+      stats: {
+        hp: '9,123',
+        atk: '1,740',
+        def: '1,460',
+        impact: '103',
+        critRate: '67.4%',
+        critDmg: '84.3%',
+        anomalyMastery: '87',
+        anomalyProficiency: '194',
+        penRatio: '5%',
+        energyRegen: '2.1',
+        dmgEther: '21%'
+      },
+
+      rol: 'Agent / Support'
+    },
 
   ],
 
