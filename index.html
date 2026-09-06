@@ -1,0 +1,479 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="theme-color" content="#08090d">
+<title>Nece — Yi Xuan // Zenless Zone Zero</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@500;600;700&family=Manrope:wght@400;500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+<div id="preloader" class="preloader">
+  <div class="loader-mark">✦</div>
+  <span>INITIALIZING // NEW ERIDU</span>
+</div>
+
+<!-- =========================================================
+     INTRO ZZZ / VIDEO + SIGN IN + BARRA LATERAL
+     V26 — LOGIN SIN FORMULARIO
+     ========================================================= -->
+
+<section id="gameIntro" class="game-intro">
+
+  <div class="intro-video-wrap" aria-hidden="true">
+    <video
+      id="introVideo"
+      class="intro-video-local"
+      autoplay
+      muted
+      loop
+      playsinline
+      preload="auto"
+      poster="assets/intro/zzz-poster.jpg">
+      <source src="assets/intro/zzz-intro.mp4" type="video/mp4">
+    </video>
+  </div>
+
+  <div class="intro-vignette"></div>
+  <div class="intro-noise"></div>
+
+  <div class="intro-hud intro-hud-top">
+    <span>NEW ERIDU</span>
+    <span>INTER-KNOT // ONLINE</span>
+  </div>
+
+  <button
+    id="introSound"
+    class="intro-sound"
+    type="button"
+    aria-label="Activar sonido"
+    title="Activar sonido">
+    <span>🔇</span>
+    <b>SOUND</b>
+  </button>
+
+  <!-- Botón inicial centrado -->
+  <div id="introSignIn" class="intro-signin-wrap">
+    <button
+      id="signInStart"
+      class="intro-signin"
+      type="button"
+      aria-label="Sign In">
+      <span>SIGN IN</span>
+      <b>↗</b>
+    </button>
+
+    <small>PRESS TO CONNECT</small>
+  </div>
+
+  <!-- =====================================================
+       BARRA LATERAL DE LOGIN
+
+       IMPORTANTE:
+       NO ES UN <form>.
+       XATSPACE utiliza iframe sandbox y bloquea form submit.
+       ===================================================== -->
+
+  <aside
+    id="introRail"
+    class="intro-rail"
+    aria-label="Zenless Zone Zero access">
+
+    <div class="intro-rail-inner">
+
+      <div class="intro-brand">
+        <img
+          class="intro-rail-logo"
+          src="assets/intro/zzz-logo.png"
+          alt="Zenless Zone Zero"
+          onerror="this.style.display='none'">
+      </div>
+
+      <div class="intro-rail-divider"></div>
+
+      <!-- LOGIN V26: CONTENEDOR NORMAL, SIN FORM -->
+      <div
+        id="railLoginForm"
+        class="intro-rail-state rail-login"
+        aria-label="Local access login">
+
+        <span class="rail-kicker">INTER-KNOT ACCESS</span>
+
+        <h2>Welcome</h2>
+
+        <p>
+          Enter any username and password to access Nece's space.
+        </p>
+
+        <label>
+          USER ID
+          <input
+            id="loginUser"
+            type="text"
+            placeholder="Username"
+            autocomplete="off">
+        </label>
+
+        <label>
+          PASSWORD
+          <input
+            id="loginPass"
+            type="password"
+            placeholder="Password"
+            autocomplete="off">
+        </label>
+
+        <!-- IMPORTANTE: type="button", NO submit -->
+        <button
+          id="loginSubmit"
+          type="button"
+          class="rail-enter">
+          <span>LOGIN</span>
+          <b>↗</b>
+        </button>
+
+        <div
+          id="loginError"
+          class="rail-login-error">
+          Enter a username and password.
+        </div>
+
+        <small>
+          LOCAL ACCESS // NO DATA STORED
+        </small>
+
+      </div>
+
+      <div class="intro-rail-bottom-logo">
+        <img
+          class="intro-rail-icon"
+          src="assets/intro/zzz-app-icon.png"
+          alt="Zenless Zone Zero app icon"
+          onerror="this.style.display='none'">
+
+        <span>ZZZ // NECE</span>
+      </div>
+
+    </div>
+  </aside>
+
+  <div class="intro-hud intro-hud-bottom">
+    <span>UID 2200022</span>
+    <span>VER. 2.0 // NECE</span>
+  </div>
+
+</section>
+
+<!-- LOGIN FICTICIO -->
+<section id="loginScreen" class="login-screen" hidden></section>
+
+<canvas id="particles" aria-hidden="true"></canvas>
+
+<div class="scanlines" aria-hidden="true"></div>
+
+<div class="ambient ambient-1"></div>
+<div class="ambient ambient-2"></div>
+<div class="ambient ambient-3"></div>
+
+<div class="grain" aria-hidden="true"></div>
+
+<div class="energy energy-a"></div>
+<div class="energy energy-b"></div>
+<div class="energy energy-c"></div>
+
+
+<!-- =========================================================
+     MAIN XATSPACE
+     ========================================================= -->
+
+<main class="space">
+
+<section class="hero" id="hero">
+
+  <div class="corner corner-tl"></div>
+  <div class="corner corner-tr"></div>
+  <div class="corner corner-bl"></div>
+  <div class="corner corner-br"></div>
+
+  <div class="hero-grid"></div>
+
+  <div class="hud hud-top">
+    <span>NEW ERIDU // 07</span>
+    <span>INTER-KNOT ONLINE</span>
+  </div>
+
+  <div class="hero-copy reveal">
+
+    <div class="eyebrow">
+      <span class="pulse-dot"></span>
+      ZENLESS ZONE ZERO
+      <b>•</b>
+      XATSPACE
+    </div>
+
+    <div class="title-wrap">
+      <span class="title-kanji">鸣</span>
+      <h1>NECE</h1>
+      <span class="title-line"></span>
+    </div>
+
+    <p class="subtitle">
+      A quiet place in New Eridu
+      <i>／</i>
+      after midnight
+    </p>
+
+    <div class="profile-card glass-hover">
+
+      <div class="avatar-ring">
+        <span class="ring-scan"></span>
+
+        <img
+          src="assets/avatar/nece.png"
+          alt="Avatar de Nece"
+          onerror="this.src='assets/character/yixuan.png'"
+          onload="this.classList.add('loaded')">
+      </div>
+
+      <div class="profile-info">
+        <div class="name">
+          Chris
+          <em>◈</em>
+        </div>
+
+        <div class="uid">
+          (2200022)
+        </div>
+
+        <div class="status">
+          <span></span>
+          connected to New Eridu
+        </div>
+      </div>
+
+      <div class="profile-signal">
+        ∞
+        <small>SYNC</small>
+      </div>
+
+    </div>
+
+    <p class="intro">
+      "Fate is ever-changing and the path ahead uncertain. Only a pure, peaceful spirit holds firm. Even through the tides of time, I harbor no regrets."
+    </p>
+
+    <nav class="menu" aria-label="Secciones del xatspace">
+
+      <button type="button" data-panel="friends">
+        <span>01</span>
+        <strong>Friends</strong>
+        <i>↗</i>
+      </button>
+
+      <button type="button" data-panel="music">
+        <span>02</span>
+        <strong>Music</strong>
+        <i>↗</i>
+      </button>
+
+      <button type="button" data-panel="gallery">
+        <span>03</span>
+        <strong>Gallery</strong>
+        <i>↗</i>
+      </button>
+
+      <button type="button" data-panel="games">
+        <span>04</span>
+        <strong>Games</strong>
+        <i>↗</i>
+      </button>
+
+      <button type="button" data-panel="steam">
+        <span>05</span>
+        <strong>Steam</strong>
+        <i>↗</i>
+      </button>
+
+      <button type="button" data-panel="about">
+        <span>06</span>
+        <strong>About</strong>
+        <i>↗</i>
+      </button>
+
+    </nav>
+
+  </div>
+
+
+  <!-- =====================================================
+       YI XUAN
+       ===================================================== -->
+
+  <div class="character-stage" id="characterStage">
+
+    <div class="orbital orbital-1"></div>
+    <div class="orbital orbital-2"></div>
+    <div class="orbital orbital-3"></div>
+
+    <div class="sigil">
+      <span>◈</span>
+    </div>
+
+    <div class="energy-ring ring-1"></div>
+    <div class="energy-ring ring-2"></div>
+
+    <div class="character-glow"></div>
+    <div class="character-aura"></div>
+    <div class="character-shadow"></div>
+
+    <img
+      class="character"
+      id="character"
+      src="assets/character/yixuan.png"
+      alt="Yi Xuan">
+
+    <div class="character-particles"></div>
+
+    <div class="character-caption">
+      <span>YI XUAN</span>
+      <small>NEW ERIDU / AGENT</small>
+    </div>
+
+    <div class="vertical-label">
+      NEW ERIDU
+      <b>✦</b>
+      INTER-KNOT
+    </div>
+
+  </div>
+
+
+  <div class="hud hud-bottom">
+    <span>◈ 36.47°N / 117.12°E</span>
+    <span>
+      NECE SPACE
+      <b>ZZZ // v2.0</b>
+    </span>
+  </div>
+
+</section>
+
+</main>
+
+
+<!-- =========================================================
+     PANEL LATERAL
+     ========================================================= -->
+
+<div id="panelBackdrop" class="panel-backdrop"></div>
+
+<aside
+  id="sidePanel"
+  class="side-panel"
+  aria-hidden="true">
+
+  <div class="panel-decoration">
+    <span>✦</span>
+  </div>
+
+  <div class="panel-inner">
+
+    <button
+      id="closePanel"
+      class="close-btn"
+      type="button"
+      aria-label="Cerrar">
+      ×
+    </button>
+
+    <div id="panelContent"></div>
+
+  </div>
+
+</aside>
+
+
+<!-- =========================================================
+     MUSIC DOCK
+     ========================================================= -->
+
+<div class="music-dock" id="musicDock">
+
+  <div class="visualizer" id="visualizer">
+    <i></i><i></i><i></i><i></i><i></i><i></i>
+    <i></i><i></i><i></i><i></i><i></i><i></i>
+  </div>
+
+  <div class="track-mini">
+
+    <span class="mini-label">
+      NOW PLAYING
+    </span>
+
+    <strong id="dockTitle">
+      Sin música cargada
+    </strong>
+
+    <small
+      id="audioStatus"
+      class="audio-status">
+      AUDIO // STANDBY
+    </small>
+
+  </div>
+
+  <button
+    id="prevTrack"
+    class="player-btn"
+    type="button"
+    aria-label="Anterior">
+    ‹
+  </button>
+
+  <button
+    id="playPause"
+    class="player-btn main"
+    type="button"
+    aria-label="Reproducir">
+    ▶
+  </button>
+
+  <button
+    id="nextTrack"
+    class="player-btn"
+    type="button"
+    aria-label="Siguiente">
+    ›
+  </button>
+
+  <div class="progress-wrap">
+    <input
+      id="progress"
+      type="range"
+      min="0"
+      max="100"
+      value="0"
+      aria-label="Progreso">
+  </div>
+
+  <button
+    id="muteBtn"
+    class="player-btn"
+    type="button"
+    aria-label="Silenciar">
+    ◒
+  </button>
+
+</div>
+
+<audio id="audio" preload="metadata"></audio>
+
+<script src="js/script.js"></script>
+
+</body>
+</html>
