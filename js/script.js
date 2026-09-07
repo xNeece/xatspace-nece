@@ -126,7 +126,7 @@ const CONFIG = {
             mensaje: 'Querido Nece ʚ₍ᐢ. .ᐢ₎ɞ, ha sido un gusto conocerte y compartir tiempo contigo ♡, eres un gran amigo y amable, agradezco por la amistad que hemos formado. No andas tan rebelde y no, nos ignores. Se te quiero mucho mucho❤️',
             space: 'https://xat.me/154519889',
             nivel: 56,
-            rango: 'A++',
+            rango: 'A+++',
 
             stats: {
                 hp: '11,240',
@@ -154,7 +154,7 @@ const CONFIG = {
             mensaje: 'La waifu emo, ahora puedo decir que te conozco mejor y estoy agradecida de que me hayas acompañado cuando necesité, tambièn estoy para cuando necesites aunque nos ignores  tqmm nc y recordá VOS NACISTE PARA JUGAR ML',
             space: 'https://xat.me/1505034120',
             nivel: 68,
-            rango: 'A+',
+            rango: 'A++',
 
             stats: {
                 hp: '12,020',
@@ -291,10 +291,10 @@ const CONFIG = {
             id: '108534737',
             avatar: 'assets/friends/amigo9.png',
             render: 'assets/signatures/amigo9.png',
-            mensaje: 'Hola Gordito grasiento, que bueno encontrarte en este momento de felicidad, te deseo que sea infinito, gracias por estar siempre para mi. Se te aprecia mucho, aunque a veces me desconozcas y seas una waifu tóxica. PD: Dormí un poco más y comé mejor, obeso.',
+            mensaje: 'Buena vida, gordito. Saludos desde Saturno, en un limbo de anillo de colores que altera las percepciones y alitera mis sensaciones cuándo pierdo los controlesde mi mente.',
             space: 'https://xat.me/108534737',
-            nivel: 75,
-            rango: 'B+',
+            nivel: 74,
+            rango: 'A+',
 
             stats: {
                 hp: '10,125',
