@@ -513,7 +513,7 @@ const CONFIG = {
         {
             nombre: 'Silent Hill 2',
             media: 'assets/games/sh2.gif',
-            frase: 'En mis sueños más inquietos, veo esa ciudad, Silent Hill.',
+            frase: 'In my restless dreams, I see that town. Silent Hill. You promised you would take me there again someday. But you never did.',
             autor: 'Mary.'
         },
 
