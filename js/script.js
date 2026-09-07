@@ -123,7 +123,7 @@ const CONFIG = {
             id: '1545198896',
             avatar: 'assets/friends/amigo3.png',
             render: 'assets/signatures/amigo3.png',
-            mensaje: 'Querido Nece ♡, ha sido un gusto conocerte y compartir tiempo contigo, eres un gran amigo y amable, agradezco por la amistad que hemos formado. No andas tan rebelde y no, nos ignores. Se te quiero mucho mucho❤️',
+            mensaje: 'Querido Nece ʚ₍ᐢ. .ᐢ₎ɞ, ha sido un gusto conocerte y compartir tiempo contigo ♡, eres un gran amigo y amable, agradezco por la amistad que hemos formado. No andas tan rebelde y no, nos ignores. Se te quiero mucho mucho❤️',
             space: 'https://xat.me/154519889',
             nivel: 56,
             rango: 'A++',
