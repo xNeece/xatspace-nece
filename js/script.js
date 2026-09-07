@@ -156,7 +156,7 @@ const CONFIG = {
       id: '1505034120',
       avatar: 'assets/friends/amigo4.png',
       render: 'assets/signatures/amigo4.png',
-      mensaje: 'Mi geme, no somos tan cercanos pero las veces que conversamos me rio bastante de tus ocurrencias, no cambies nunca, c te aprecia asi todo seco(﻿? jajaja es broma. Gracias por estar, abrazo!',
+      mensaje: 'la waifu emo, ahora puedo decir que te conozco mejor y estoy agradecida de que me hayas acompañado cuando necesité, tambièn estoy para cuando necesites aunque nos ignores  tqmm nc y recordá VOS NACISTE PARA JUGAR ML',
       space: 'https://xat.me/1505034120',
       nivel: 68,
       rango: 'A+',
