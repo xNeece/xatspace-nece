@@ -369,6 +369,33 @@ const CONFIG = {
             rol: 'Agent / Support'
         },
 
+        {
+            nombre: 'Naye',
+            registro: 'Nashe',
+            id: '1522135253',
+            avatar: 'assets/friends/amigo11.png',
+            render: 'assets/signatures/amigo11.png',
+            mensaje: 'Querido Nece: Ando más perdida que la mierda pero sabes que puedes contar conmigo para lo que necesites. Te aprecio mucho ❮3',
+            space: 'https://xat.me/1522135253',
+            nivel: 82,
+            rango: 'A+',
+
+            stats: {
+                hp: '8,758',
+                atk: '2,325',
+                def: '2,395',
+                impact: '65',
+                critRate: '74.6%',
+                critDmg: '167.9%',
+                anomalyMastery: '134',
+                anomalyProficiency: '315',
+                penRatio: '2%',
+                energyRegen: '1.1',
+                dmgEther: '54%'
+            },
+
+            rol: 'Agent / Attack'
+        },
     ],
 
     /* =======================================================
