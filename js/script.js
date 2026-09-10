@@ -641,6 +641,21 @@ const CONFIG = {
     },
 
     {
+      titulo: 'SanZ, HOYO-MiX - BITE!',
+      archivo: 'assets/music/tema9.mp3'
+    },
+
+    {
+      titulo: 'Billy Mode - MrMo, Relaye',
+      archivo: 'assets/music/tema10.mp3'
+    },
+
+    {
+      titulo: 'Almost Yi Xuan EP - Juno',
+      archivo: 'assets/music/tema8.mp3'
+    },
+
+    {
       titulo: '60% Daily - Zenless Zone Zero OST',
       archivo: 'assets/music/tema2.mp3'
     },
@@ -668,7 +683,10 @@ const CONFIG = {
     {
       titulo: 'Tour de Inferno - Zenless Zone Zero OST',
       archivo: 'assets/music/tema7.mp3'
-    }
+    },
+
+
+
 
   ],
 
