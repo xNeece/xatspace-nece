@@ -266,7 +266,7 @@ const CONFIG = {
       id: '195464300',
       avatar: 'assets/friends/amigo5.png',
       render: 'assets/signatures/amigo5.png',
-      mensaje: 'Maldito infiel.',
+      mensaje: 'Este sujeto es una persona increíble, me salvo de un asalto, e hizo volar autos con su rasho láser. El pro en de ML, pro en el hecho, manco de corazón, lo sad lo persigue y él se deja atrapar. Una alma noble incomprendida. Se le aprecia y se le quiere.',
       space: 'https://xat.me/195464300',
       nivel: 53,
       rango: 'A',

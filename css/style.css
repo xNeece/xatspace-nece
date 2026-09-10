@@ -3579,11 +3579,11 @@ h1 {
 
 /* =========================================================
  * V3.6 — X DE CIERRE AL FINAL DEL PANEL
- * Misma X/funcion que el cierre superior, alineada a la izquierda.
+ * Misma X/funcion que el cierre superior, alineada a la derecha.
  * ========================================================= */
 .panel-bottom-close {
   display:flex;
-  justify-content:flex-start;
+  justify-content:flex-end;
   align-items:center;
   width:100%;
   margin-top:42px;
