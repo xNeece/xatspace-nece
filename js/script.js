@@ -766,7 +766,7 @@ const CONFIG = {
     {
       nombre: 'Counter Strike 2',
       media: 'assets/games/cs2.gif',
-      frase: 'Easy peasy lemon squeezy.',
+      frase: 'Easy Peasy Lemon Squeezy.',
       autor: 'Counter Terrorist.'
     },
 
