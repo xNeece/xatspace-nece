@@ -449,7 +449,7 @@ const CONFIG = {
       id: '108534737',
       avatar: 'assets/friends/amigo9.png',
       render: 'assets/signatures/amigo9.png',
-      mensaje: 'Buena vida, gordito. Saludos desde Saturno, en un limbo de anillo de colores que altera las percepciones y alitera mis sensaciones cuándo pierdo los controlesde mi mente.',
+      mensaje: 'Buena vida, gordito. Saludos desde Saturno, en un limbo de anillo de colores que altera las percepciones y alitera mis sensaciones cuándo pierdo los controles de mi mente.',
       space: 'https://xat.me/108534737',
       nivel: 75,
       rango: 'B+',
