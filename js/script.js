@@ -82,7 +82,7 @@ const CONFIG = {
       id: '1522194120',
       avatar: 'assets/friends/amigo1.png',
       render: 'assets/signatures/amigo1.png',
-      mensaje: 'El Watonsito pro uwu.',
+      mensaje: 'Necesillo, el Watonsito pro uwu.',
       space: 'https://xat.me/1522194120',
       nivel: 100,
       rango: 'S++',
