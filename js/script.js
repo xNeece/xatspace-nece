@@ -2976,7 +2976,7 @@ function init() {
 
       '<span>Relationship</span>' +
 
-      '<strong>Married 💫</strong>' +
+      '<strong><a class="married-link" href="https://xat.me/1522194120" target="_blank">Married 💍</a></strong>' +
 
       '</div>' +
 

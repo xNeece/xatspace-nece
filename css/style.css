@@ -3651,3 +3651,29 @@ h1 {
     padding-top:16px;
   }
 }
+
+.married-link,
+.married-link:link,
+.married-link:visited,
+.married-link:active {
+  color: #ffffff !important;
+  text-decoration: none;
+  text-decoration-color: #ffffff;
+  text-underline-offset: 3px;
+  display: inline-block;
+  transition:
+  color .3s ease,
+  transform .3s ease,
+  text-shadow .3s ease;
+}
+
+.married-link:hover {
+  color: #d9ad62 !important;
+  text-decoration-color: #d9ad62;
+  transform: scale(1.12);
+
+  text-shadow:
+  0 0 5px rgba(217,173,98,.7),
+  0 0 12px rgba(217,173,98,.5),
+  0 0 20px rgba(217,173,98,.3);
+}
