@@ -1923,7 +1923,7 @@ function init() {
 
     (
       title === 'About me:'
-      ? 'PROFILE /// NECE'
+      ? 'PROFILE // NECE'
       : 'NECE / ZENLESS ZONE ZERO'
     ) +
 
